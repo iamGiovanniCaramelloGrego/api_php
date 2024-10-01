@@ -73,7 +73,7 @@
                                                             <div class="col-xl-6 col-md-6">
                                                                 <h6>Cursos</h6>
                                                                 <h5 class="m-b-30 f-w-700"><?php echo $data['cursos']; ?>
-                                                                    <span class="text-c-green m-l-10"><?php echo $perc_cursos;?>% de um total de 50</span></h5>
+                                                                    <span class="text-c-green m-l-10"><?php echo $perc_cursos;?>% de um total de 60</span></h5>
                                                                 <div class="progress">
                                                                     <div class="progress-bar bg-c-yellow" style="width:<?php echo $perc_cursos;?>%"></div>
                                                                 </div>
