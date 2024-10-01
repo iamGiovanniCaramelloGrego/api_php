@@ -52,7 +52,7 @@
                                                             $id = $_GET['id']; // Converte o valor para inteiro
                                                             //echo "ID ==> $id";
                                                             
-                                                            $url = "http://localhost/exercicio/api.php/cursos/{$id}";
+                                                            $url = "http://localhost/api_php-main/api.php/cursos/{$id}";
                                                             //echo $url;
 
                                                             $response = file_get_contents($url);

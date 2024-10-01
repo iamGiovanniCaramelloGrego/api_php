@@ -27,7 +27,7 @@
         $context  = stream_context_create($options);
         
         // Define a URL da API onde os dados serão enviados
-        $url = 'http://localhost/exercicio/api.php/alunos';
+        $url = 'http://localhost/api_php-main/api.php/alunos';
         
         // Faz a requisição HTTP para a API e armazena o resultado
         $result = file_get_contents($url, false, $context);

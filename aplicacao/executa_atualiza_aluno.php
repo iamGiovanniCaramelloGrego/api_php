@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     );
 
     $context  = stream_context_create($options);
-    $url = 'http://localhost/exercicio/api.php/alunos'; 
+    $url = 'http://localhost/api_php-main/api.php/alunos'; 
     $result = file_get_contents($url, false, $context);
 
     if ($result === FALSE) {

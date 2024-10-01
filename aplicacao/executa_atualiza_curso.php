@@ -13,7 +13,7 @@
         );
 
         $context  = stream_context_create($options);
-        $url = 'http://localhost/exercicio/api.php/cursos';
+        $url = 'http://localhost/api_php-main/api.php/cursos';
         $result = file_get_contents($url, false, $context);
 
         if ($result === FALSE) {

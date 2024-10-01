@@ -47,7 +47,7 @@
                                     <?php
                                         $id = intval($_GET['id']); // Converte o valor para inteiro
 
-                                        $url = "http://localhost/exercicio/api.php/alunos/{$id}";
+                                        $url = "http://localhost/api_php-main/api.php/alunos/{$id}";
 
                                         $response = file_get_contents($url);
                                         $data = json_decode($response, true);
@@ -70,7 +70,7 @@
                                         <div class="mb-3">
                                             <label for="cursos-dropdown" class="form-label">Nome do Curso</label>
                                             <?php
-                                                $url = 'http://localhost/exercicio/api.php/cursos';
+                                                $url = 'http://localhost/api_php-main/api.php/cursos';
                                                 $response = file_get_contents($url);
                                                 $cursos = json_decode($response, true);
 

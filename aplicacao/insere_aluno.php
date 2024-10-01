@@ -63,7 +63,7 @@
                                                             <div class="mb-3">
                                                                 <label for="cursos-dropdown" class="form-label">Nome do Curso</label>
                                                                 <?php
-                                                                    $url = 'http://localhost/exercicio/api.php/cursos';
+                                                                    $url = 'http://localhost/api_php-main/api.php/cursos';
                                                                     $response = file_get_contents($url);
                                                                     $data = json_decode($response, true);
 

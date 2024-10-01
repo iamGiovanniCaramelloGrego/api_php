@@ -50,7 +50,7 @@
                                                         <div class="row">
                                                             <div class="col-xl-6 col-md-6">
                                                             <?php
-                                                                $url = 'http://localhost/exercicio/api.php/totais';
+                                                                $url = 'http://localhost/api_php-main/api.php/totais';
                                                                 $response = file_get_contents($url);
                                                                 $data = json_decode($response, true);
 
